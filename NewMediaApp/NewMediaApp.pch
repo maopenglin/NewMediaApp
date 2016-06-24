@@ -1,0 +1,27 @@
+//
+//  NewMediaApp.pch
+//  NewMediaApp
+//
+//  Created by PengLinmao on 16/5/17.
+//  Copyright © 2016年 pengLin. All rights reserved.
+//
+
+#ifndef NewMediaApp_pch
+#define NewMediaApp_pch
+
+#import "UIView+Extensions.h"
+#import "CommUtils.h"
+#import "AppConfig.h"
+#import "AppApiUrl.h"
+#import "AppMacro.h"
+#import "AppFont.h"
+#import "ProgressHDTool.h"
+
+#import "PIButton.h"
+#import "UIView+Extensions.h"
+#import "NSString+Extensions.h"
+#import "AppDefine.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* NewMediaApp_pch */
