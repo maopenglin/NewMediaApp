@@ -80,10 +80,10 @@
 //初始化截屏的view
 -(void)initViews{
 
-    self.view.backgroundColor = CTColorString(@"f4f4f4");
+    self.view.backgroundColor =UIColorHEX(@"f4f4f4");
     if (!self.mBgView) {
         self.mBgView = [[UIView alloc]initWithFrame:self.view.bounds];
-        self.mBgView.backgroundColor =CTColorString(@"f4f4f4");
+        self.mBgView.backgroundColor =UIColorHEX(@"f4f4f4");
         [self.view.superview insertSubview:self.mBgView belowSubview:self.view];
     }
     self.mBgView.hidden = NO;

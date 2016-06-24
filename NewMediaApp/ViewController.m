@@ -37,11 +37,11 @@
     YYLabel *yylab=[[YYLabel alloc] initWithFrame:CGRectMake(10, 300, 100, 25)];
     yylab.text=@"测试汉字";
     yylab.backgroundColor=[UIColor clearColor];
-    yylab.font=[UIFont systemFontOfSize:18];
+    yylab.font=UIFontScale(15);
     [self.view addSubview:yylab];
     
     [self.view addSubview:pibtn];
-    return;
+    
     /*
     
     UIView *v=[[UIView alloc] initWithFrame:CGRectMake(0, -50,600, 80)];
@@ -85,8 +85,9 @@
     
     
   */
+    
     UIView *frontView = [[UIView alloc] initWithFrame:self.view.bounds];
-         frontView.backgroundColor = [UIColor colorWithRed:0.345 green:0.349 blue:0.365 alpha:1.000];
+         frontView.backgroundColor = UIColorHex(f3ff33);
    
          // 后台页面
     UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];

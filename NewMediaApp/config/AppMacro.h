@@ -9,7 +9,7 @@
 #ifndef AppMacro_h
 #define AppMacro_h
 
-#define CTColorString(color)  [CommUtils colorWithHexString:color];
+
 
 
 #define NMScreenFrameW [[UIScreen mainScreen] bounds].size.width
@@ -17,6 +17,11 @@
 #define NMScreenFrameH [[UIScreen mainScreen] bounds].size.height
 #define NMSecondMenuTitleColor  CTColorString(@"#555555")
 #define TIMEOUT 60
+
+
+
+
+
 //单例模式
 #define SYNTHESIZE_SINGLETON_FOR_HEADER(className) \
 \
