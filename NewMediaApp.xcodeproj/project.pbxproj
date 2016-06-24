@@ -55,6 +55,7 @@
 		99275D231CFC4B1F00258517 /* rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 99275D1B1CFC4B1F00258517 /* rsa_private_key.pem */; };
 		99275D241CFC4B1F00258517 /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 99275D1C1CFC4B1F00258517 /* rsa_public_key.pem */; };
 		9941BDA01CEC4F7B00838279 /* NMBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941BD9F1CEC4F7B00838279 /* NMBaseWebViewController.m */; };
+		994B36241D1D37DC00F3B637 /* NMBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 994B36231D1D37DC00F3B637 /* NMBaseTableViewCell.m */; };
 		999423EE1CEB1DEC00ECB23F /* APINetWorkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 999423ED1CEB1DEC00ECB23F /* APINetWorkService.m */; };
 		999423F11CEB1E7100ECB23F /* HttpRequstTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 999423F01CEB1E7100ECB23F /* HttpRequstTool.m */; };
 		999423F51CEB1FCE00ECB23F /* NMBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 999423F41CEB1FCE00ECB23F /* NMBaseEntity.m */; };
@@ -235,6 +236,8 @@
 		99275D1C1CFC4B1F00258517 /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
 		9941BD9E1CEC4F7B00838279 /* NMBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMBaseWebViewController.h; sourceTree = "<group>"; };
 		9941BD9F1CEC4F7B00838279 /* NMBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMBaseWebViewController.m; sourceTree = "<group>"; };
+		994B36221D1D37DC00F3B637 /* NMBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMBaseTableViewCell.h; sourceTree = "<group>"; };
+		994B36231D1D37DC00F3B637 /* NMBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMBaseTableViewCell.m; sourceTree = "<group>"; };
 		999423EC1CEB1DEC00ECB23F /* APINetWorkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APINetWorkService.h; sourceTree = "<group>"; };
 		999423ED1CEB1DEC00ECB23F /* APINetWorkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APINetWorkService.m; sourceTree = "<group>"; };
 		999423EF1CEB1E7100ECB23F /* HttpRequstTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequstTool.h; sourceTree = "<group>"; };
@@ -588,6 +591,7 @@
 		99B296991CEAEE3500231894 = {
 			isa = PBXGroup;
 			children = (
+				99E5F76F1D1D364500197C08 /* cell */,
 				99DDB8C31CEC06F400F20370 /* ViewController */,
 				999423F21CEB1FB700ECB23F /* entity */,
 				999423EB1CEB1D6500ECB23F /* APINetWorkService */,
@@ -724,6 +728,24 @@
 				99E5F76C1D1D1B4B00197C08 /* OrderedDictionary.m */,
 			);
 			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		99E5F76F1D1D364500197C08 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				99E5F7701D1D365A00197C08 /* BaseCell */,
+			);
+			name = cell;
+			path = NewMediaApp/cell;
+			sourceTree = "<group>";
+		};
+		99E5F7701D1D365A00197C08 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				994B36221D1D37DC00F3B637 /* NMBaseTableViewCell.h */,
+				994B36231D1D37DC00F3B637 /* NMBaseTableViewCell.m */,
+			);
+			path = BaseCell;
 			sourceTree = "<group>";
 		};
 		9E366D480B557B9200D6B958 /* Frameworks */ = {
@@ -923,6 +945,7 @@
 				99DDB8CA1CEC085D00F20370 /* ProgressHDTool.m in Sources */,
 				99EAF76B1D12906A0028CB0C /* CJNavigationController.m in Sources */,
 				991AC0EE1CEAFF04009DC495 /* DLSlideView.m in Sources */,
+				994B36241D1D37DC00F3B637 /* NMBaseTableViewCell.m in Sources */,
 				991AC0F01CEAFF04009DC495 /* DLScrollTabbarView.m in Sources */,
 				99B296A71CEAEE3500231894 /* main.m in Sources */,
 				99E5F75B1D1D1A9400197C08 /* DBUtil.m in Sources */,

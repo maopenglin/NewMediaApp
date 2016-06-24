@@ -15,7 +15,6 @@
 #define NMScreenFrameW [[UIScreen mainScreen] bounds].size.width
 #define NMScreenNavHeight 64
 #define NMScreenFrameH [[UIScreen mainScreen] bounds].size.height
-#define NMSecondMenuTitleColor  CTColorString(@"#555555")
 #define TIMEOUT 60
 
 

@@ -50,7 +50,7 @@
     
     selectSubMenuBtn = [[UIButton alloc] initWithFrame:CGRectMake(NMScreenFrameW - 30, (self.height_ext - 25) / 2, 30, 25)];
     [selectSubMenuBtn setTitle:@"\U0000E610" forState:UIControlStateNormal];
-    UIColor *color = NMSecondMenuTitleColor;
+    UIColor *color = UIColorHEX(@"#555555");//NMSecondMenuTitleColor;
     [selectSubMenuBtn setTitleColor:color forState:UIControlStateNormal];
     [selectSubMenuBtn.titleLabel setFont:[UIFont fontWithName:AppFontName size:16]];
     [selectSubMenuBtn addTarget:self action:@selector(callActionBlock) forControlEvents:UIControlEventTouchUpInside];
