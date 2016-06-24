@@ -7,7 +7,7 @@
 //
 
 #import "AppDefine.h"
-
+#import "LUKeychainAccess.h"
 @implementation AppDefine
 NSString *const AppUUIDKey = @"AppUUIDKey";
 
@@ -27,5 +27,9 @@ UIColor * UIColorHEX(NSString *color){
 
 UIColor * UIColorRGB(CGFloat r,CGFloat g,CGFloat b ,CGFloat alpha){
     return [UIColor colorWithRed:r green:g blue:b alpha:alpha];
+}
+
+NSString * UUID_APP(){
+    return [[LUKeychainAccess standardKeychainAccess] stringForKey:AppUUIDKey];
 }
 @end

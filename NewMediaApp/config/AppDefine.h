@@ -25,10 +25,15 @@ FOUNDATION_EXPORT UIFont * UIFontScale(float num);
 /**
     #hex颜色
  **/
-FOUNDATION_EXPORT UIColor * UIColorHEX( NSString *color);
+FOUNDATION_EXPORT UIColor * UIColorHEX(NSString *color);
 
 /**
  #RGB颜色
  **/
 FOUNDATION_EXPORT UIColor * UIColorRGBA(CGFloat r,CGFloat g,CGFloat b,CGFloat alpha);
+
+/**
+   #获取UUID
+ **/
+FOUNDATION_EXPORT NSString * UUID_APP();
 @end

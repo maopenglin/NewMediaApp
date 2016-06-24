@@ -87,7 +87,7 @@
   */
     
     UIView *frontView = [[UIView alloc] initWithFrame:self.view.bounds];
-         frontView.backgroundColor = UIColorHex(f3ff33);
+    frontView.backgroundColor =UIColorHex(f3ff33);
    
          // 后台页面
     UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];

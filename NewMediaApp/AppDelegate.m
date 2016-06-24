@@ -22,7 +22,7 @@
     [self newMediaAppApplication:application didFinishLaunchingWithOptions:launchOptions];
     [[APINetWorkService sharedAPINetWorkService] testApi];
     
-
+    NSLog(@"uuid:%@",UUID_APP());
     
 
     
